@@ -1,0 +1,17 @@
+{% extends "base1.html" %}
+
+
+{% block header %}
+    <div class="icon_header">   
+        <form action="/logout/">
+            <button class="but">Выход</button>
+        </form>
+        <h1 class="header_text">Добро пожаловать</h1>
+    </div>
+{% endblock header %}
+
+{% block content %}
+    <div>
+        <p>привет {{ session['username'] }}</p>
+    </div>
+{% endblock content %}

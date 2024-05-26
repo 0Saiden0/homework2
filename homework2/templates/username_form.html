@@ -1,0 +1,18 @@
+{% extends "base1.html" %}
+
+
+{% block header %}
+    <div class="icon_header">   
+        <h1 class="header_text">Регистрация</h1>
+    </div>
+{% endblock header %}
+
+{% block content %}
+    <div class="buttons">
+        <form method="post">
+            <input type="text" name="username" placeholder="Имя">
+            <input type="text" name="email" placeholder="Почта">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+{% endblock content %}

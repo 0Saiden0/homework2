@@ -1,0 +1,23 @@
+
+footer {
+    background: rgb(235, 235, 235);
+    padding: 20px;
+}
+
+.buttons {
+    padding: 15PX;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+.but {
+    position: fixed;
+    color: #fff;
+    right: 10px;
+    top: 10px;
+    background-color: #899cb6;
+    padding: 5px;
+    width: 100px;
+}
